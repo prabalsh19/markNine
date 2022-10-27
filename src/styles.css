@@ -1,0 +1,51 @@
+body {
+  background-color: #edf0f5;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 5rem auto;
+  width: 500px;
+  text-align: left;
+}
+
+.genre-btns {
+  margin-top: 2rem;
+}
+.genre-btns button {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border: 1px black solid;
+  border-radius: 1rem;
+}
+.genre-btns button:hover {
+  background-color: #1876f2;
+  cursor: pointer;
+}
+.divider {
+  margin: 2rem auto;
+  border-top: 0.1px solid grey;
+}
+.book {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+}
+.book .book-cover {
+  width: 50px;
+  margin-right: 2rem;
+}
+.book-cover:hover {
+  width: 100px;
+}
+.title {
+  display: inline;
+  margin-top: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+.author {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
